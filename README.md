@@ -23,7 +23,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/UsingProperToFormatUpperCaseColumn.png?raw=true)
 
--I also used Delimiters to break down the job titles into different columns from which I could format and standardize.
+- I also used Delimiters to break down the job titles into different columns from which I could format and standardize.
     - The number of job titles that were similar or similar but had more of a description at the end made it hard to group data.
     - One example is “Scientist - Molecular Biology”.
     - This can be narrowed down to just Data Scientist as the Industry in which this job takes place is already its own column.
