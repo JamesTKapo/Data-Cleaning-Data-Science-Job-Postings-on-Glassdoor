@@ -3,14 +3,14 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 
 # Duplicated Data
--Removed Duplicated Data within the Data tab and used the “Remove Duplicate” function.
-    -There was no Duplicated data after running this function. From my understanding, it’s always important to make sure there aren't any duplicated data as this can cause a lot of problems
+- Removed Duplicated Data within the Data tab and used the “Remove Duplicate” function.
+    - There was no Duplicated data after running this function. From my understanding, it’s always important to make sure there aren't any duplicated data as this can cause a lot of problems
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/DuplicatedData.png?raw=true)
 
 
 # Changing Columns to Create Standardization
--Looked at several columns although to list a good example I chose the column which contained the ownership type of the company
+- Looked at several columns although to list a good example I chose the column which contained the ownership type of the company
     - For example, a company could be listed as either Public or Private but what trailed this was the word "Company"
     - This itself is completely useless. We already know it's a company and it would serve a greater purpose to keep the Column title as "Type of ownership" and create a standard version of either Public or Private
 
