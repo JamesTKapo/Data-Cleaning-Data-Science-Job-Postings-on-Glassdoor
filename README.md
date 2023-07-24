@@ -1,22 +1,22 @@
-#Data Cleaning Job Posting on Glassdoor
+# Data Cleaning Job Posting on Glassdoor
 Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large Excel file with all sorts of data. In this project, I did a variety of tasks ranging from looking at duplicated data to creating standardization, looking at rows to create groups, looking at columns with missing data, and deleting columns that served no purpose.
 
 
-#Duplicated Data
+# Duplicated Data
 -Removed Duplicated Data within the Data tab and used the “Remove Duplicate” function.
     -There was no Duplicated data after running this function. From my understanding, it’s always important to make sure there aren't any duplicated data as this can cause a lot of problems
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/DuplicatedData.png?raw=true)
 
 
-#Changing Columns to Create Standardization
+# Changing Columns to Create Standardization
 -Looked at several columns although to list a good example I chose the column which contained the ownership type of the company
     -For example, a company could be listed as either Public or Private but what trailed this was the word "Company"
     -This itself is completely useless. We already know it's a company and it would serve a greater purpose to keep the Column title as "Type of ownership" and create a standard version of either Public or Private
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/GroupingDataForStandardization.png?raw=true)
 
-#Changing Names to create proper formatting
+# Changing Names to create proper formatting
 -In the Job Title Column, I noticed there was a Job entered in entire caps
     -Not good when standardizing data
     -Used the =PROPER(Cell) function to fix the issue
@@ -32,7 +32,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/StandardizingJobTitle.png?raw=true)
 
-#Looking at Columns to standardize and create feature groups with
+# Looking at Columns to standardize and create feature groups with
 
 -Standardizing the job titles took the most time as there were so many different titles.
     -After formatting the jobs to make them easier to read, I then started to narrow down what the actual job was. 
@@ -41,7 +41,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/GroupingJobTitle.png?raw=true)
 
-#Looking at Columns with Numerical Data
+# Looking at Columns with Numerical Data
 -The Salary Column had numerous problems.
     -Firstly, the Column that had the word “Glassdoor” in every cell.
     -Not something we need and most certainly something that would make working with these values impossible to work with in something like SQL
@@ -80,7 +80,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/NewSalaryAverage.png?raw=true)
 
-#Deleting Columns we are not going to use
+# Deleting Columns we are not going to use
 -Looked at 6 columns that wouldn’t yield much information
 -Index
     -Not useful at all as all it does is display the number of job postings and is not something we can get a lot of information from.
@@ -114,7 +114,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/DeletingSectorColumn.png?raw=true)
 
-#Equations I used
+# Equations I used
 
 -=PROPER(Cell)
 --=AVERAGE(Cell,Cell)
