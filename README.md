@@ -33,6 +33,7 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/StandardizingJobTitle.png?raw=true)
 
 #Looking at Columns to standardize and create feature groups with
+
 -Standardizing the job titles took the most time as there were so many different titles.
     -After formatting the jobs to make them easier to read, I then started to narrow down what the actual job was. 
     -Looking at jobs like "Data Scientist, starting salary". These types of cells can cause issues and create more data than we need. 
@@ -81,7 +82,6 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 
 #Deleting Columns we are not going to use
 -Looked at 6 columns that wouldn’t yield much information
-
 -Index
     -Not useful at all as all it does is display the number of job postings and is not something we can get a lot of information from.
 
@@ -115,5 +115,6 @@ Data Cleaning Job Posting on Glassdoor was my first attempt at cleaning a large 
 ![ScreenShot](https://github.com/JamesTKapo/Data-Cleaning-Data-Science-Job-Postings-on-Glassdoor/blob/main/Images/DeletingSectorColumn.png?raw=true)
 
 #Equations I used
+
 -=PROPER(Cell)
 --=AVERAGE(Cell,Cell)
